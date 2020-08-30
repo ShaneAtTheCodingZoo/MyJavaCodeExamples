@@ -1,0 +1,33 @@
+package com.thecodingzoo.lessons.patterns.creational;
+
+import java.util.UUID;
+
+import org.apache.commons.lang3.StringUtils;
+
+import lombok.Getter;
+
+@Getter
+public class Person {
+	private UUID id;
+	private String firstName;
+	private String middleName;
+	private String lastName;
+	
+	public Person(UUID id, String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.id=id;
+		validate();
+	}
+	
+	public Person(UUID id, String firstName, String lastName, String middleName) {
+		this(id, firstName, lastName);
+		this.middleName = middleName;
+	}
+	
+	private void validate() {
+		if(StringUtils.isEmpty(firstName) || StringUtils.isEmpty(lastName) || id == null) {
+			throw new IllegalArgumentException();
+		}
+	}
+}

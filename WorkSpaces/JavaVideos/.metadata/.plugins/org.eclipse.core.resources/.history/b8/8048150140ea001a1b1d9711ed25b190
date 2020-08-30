@@ -1,0 +1,17 @@
+package com.thecodingzoo.lessons.patterns.creational;
+
+import java.util.UUID;
+
+public class ConstructorExample {
+	public static void main(String[] args) {
+		/* Object is immutable */
+		Person person = new Person(UUID.randomUUID(), "Shane", "Crouch");
+		
+		/* Object creation ensure it is whole, this ensure fail fast */
+		try {
+			Person incompletePerson = new Person(UUID.randomUUID(), "shane", null);
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+	}
+}

@@ -1,0 +1,26 @@
+package com.thecodingzoo.lessons.patterns.builder;
+
+import java.util.UUID;
+
+import lombok.Getter;
+
+@Getter
+public class Person {
+	private UUID id;
+	private String firstName;
+	private String middleName;
+	private String lastName;
+	
+	public Person(UUID id, String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.id=id;
+		validate();
+	}
+	
+	private void validate() {
+		if(firstName == null || lastName == null || firstName == "" || lastName == "") {
+			
+		}
+	}
+}

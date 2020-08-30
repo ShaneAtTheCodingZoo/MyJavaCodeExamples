@@ -1,0 +1,10 @@
+package com.thecodingzoo.lessons.advanced.streams;
+
+public class StreamAllMatchExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

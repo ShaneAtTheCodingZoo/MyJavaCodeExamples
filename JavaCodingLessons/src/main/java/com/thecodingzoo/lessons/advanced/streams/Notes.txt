@@ -1,0 +1,12 @@
+First lesson is drawing and powerpoint. 
+
+No picture of me.. just powerpoint and then drawing. Intro that and then exit of me. 
+	java stream filter
+3. java stream reduce
+4. java stream any match
+5. java stream all match
+6. java stream none match
+
+
+
+

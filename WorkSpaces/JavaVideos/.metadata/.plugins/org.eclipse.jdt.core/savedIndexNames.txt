@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+Z:\2019\Youtube\CodingZoo\Java\Code\WorkSpaces\JavaVideos\.metadata\.plugins\org.eclipse.jdt.core
+3775376090.index
+1401013006.index
+2526647606.index
+4094807403.index
+743485530.index
